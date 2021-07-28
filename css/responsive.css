@@ -1,0 +1,714 @@
+/*--media query--*/
+@media screen and  (max-width:320px){
+
+    .navbar-light{
+        background-color:#207FDC ;
+    }
+    .navbar-light .navbar-brand {
+        
+        margin-right: 0 !important;
+    }
+    .navbar-light  .navbar-brand p{ 
+        font-size: 13.5px;
+        border-color:#fff;
+        padding: 10px 7px;
+    
+    }
+    .navbar-light  .navbar-toggler {
+        padding: .25rem .6rem !important;
+    }
+    .navbar-light .navbar-collapse{
+    
+        background-color: #207FDC; 
+
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      
+        display: table !important;
+    
+    }
+    
+    .navbar-light .navbar-nav .active .nav-link,
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    
+        color: rgb(240, 240, 240) !important;
+    
+    }
+    .navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: rgb(240, 240, 240)  !important;
+    
+    }
+    .sticky-top  .navbar-brand p,
+    .sticky-top .navbar-toggler{ 
+    
+        border-color:#207FDC ;
+        
+    }
+       
+    .sticky-top  .navbar-collapse{
+    
+        background-color: #fff !important; 
+    }
+    .sticky-top .navbar-nav .active .nav-link,
+    .sticky-top .navbar-nav .nav-item .nav-link:hover{
+    
+        color: #207FDC !important;
+    
+    }
+    .navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+
+      background-color: rgb(240, 240, 240)  !important;
+
+    }
+    .sticky-top  .navbar-collapse{
+
+       background-color: #fff !important; 
+    }
+    .sticky-top .navbar-nav .active .nav-link,
+    .sticky-top .navbar-nav .nav-item .nav-link:hover{
+
+       color: #207FDC !important;
+
+    }
+    .sticky-top .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: #207FDC !important;
+    
+    }
+    .slide .carousel-item .image,
+    .help-sec,
+    .testimonials-sec,
+    .contact-sec{
+
+        background-attachment: scroll !important;
+    }
+    
+    .slide .carousel-item .text h2 {
+        
+        font-size:25px;
+    }
+    .slide .carousel-item  .btn{
+
+        display: block;
+        margin: 15px 0;
+        
+    }
+
+    .slide .carousel-control-next, 
+    .slide .carousel-control-prev {
+
+        top:45%;
+        margin:0 15px;
+    }
+   
+
+    .about-sec .image {
+    
+        height:100%;
+    
+    }
+    .about-sec .text {
+         padding:0;
+    }
+    .gallery-sec .image {
+        
+         height:100% !important;
+    }
+    .service-sec .content {
+      
+        border-bottom: 1px solid #ccc;
+        padding:0 0 15px;
+        border-right:unset !important;
+    }
+    .service-sec .col-lg-3:last-child .content{
+    
+        border-bottom: unset  !important;
+        border-right:unset !important;
+
+      }
+      footer .content{
+    
+        text-align: center;
+      }
+      .about-sec .col-md-12,
+      .service-sec .col-lg-3,
+      .doctors-sec .col-lg-4,
+      .price-sec .col-lg-4,
+       footer .col-lg-4,
+       .appointment-sec .col-lg-6{
+    
+        margin-bottom: 30px;
+      }
+}
+@media screen and (max-width:375px) and (min-width:321px){
+    
+    .navbar-light{
+        background-color:#207FDC ;
+        }
+        .navbar-light  .navbar-brand p{ 
+        border-color:#fff ;
+    
+        }
+    
+        .navbar-light .navbar-collapse{
+    
+        background-color: #207FDC; 
+        }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      
+        display: table !important;
+    
+    }
+    
+    .navbar-light .navbar-nav .active .nav-link,
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    
+        color: rgb(240, 240, 240) !important;
+    
+    }
+    .navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: rgb(240, 240, 240)  !important;
+    
+    }
+        .sticky-top  .navbar-brand p,
+        .sticky-top .navbar-toggler{ 
+    
+           border-color:#207FDC ;
+        
+        }
+       
+    .sticky-top  .navbar-collapse{
+    
+        background-color: #fff !important; 
+    }
+    .sticky-top .navbar-nav .active .nav-link,
+    .sticky-top .navbar-nav .nav-item .nav-link:hover{
+    
+        color: #207FDC !important;
+    
+    }
+    .sticky-top .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: #207FDC !important;
+    
+    }
+    .slide .carousel-item .image,
+    .help-sec,
+    .testimonials-sec,
+    .contact-sec{
+
+        background-attachment: scroll !important;
+    }
+    .slide .carousel-item .text p {
+
+        font-size: 10px;
+    }
+    .slide .carousel-item .text h2 {
+        
+        font-size:25px;
+    }
+    .slide .carousel-item  .btn{
+
+        display: block;
+        margin: 15px 0;
+        
+    }
+
+    .slide .carousel-control-next, 
+    .slide .carousel-control-prev {
+
+        top:45%;
+        margin:0 15px;
+    }
+   
+
+    .about-sec .image {
+    
+        height:100%;
+    
+    }
+    .about-sec .text {
+         padding:0;
+    }
+    .gallery-sec .image {
+        
+         height:100% !important;
+    }
+    .service-sec .content {
+      
+        border-bottom: 1px solid #ccc;
+        padding:0 0 15px;
+        border-right:unset !important;
+    }
+    .service-sec .col-lg-3:last-child .content{
+    
+        border-bottom: unset  !important;
+        border-right:unset !important;
+
+      }
+      footer .content{
+    
+        text-align: center;
+      }
+      .about-sec .col-md-12,
+      .service-sec .col-lg-3,
+      .doctors-sec .col-lg-4,
+      .price-sec .col-lg-4,
+       footer .col-lg-4,
+       .appointment-sec .col-lg-6{
+    
+        margin-bottom: 30px;
+      }
+}   
+@media screen and (max-width:425px) and (min-width:376px){
+    .navbar-light{
+        background-color:#207FDC ;
+        }
+        .navbar-light  .navbar-brand p{ 
+        border-color:#fff ;
+    
+        }
+    
+        .navbar-light .navbar-collapse{
+    
+        background-color: #207FDC; 
+        }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      
+        display: table !important;
+    
+    }
+    
+    .navbar-light .navbar-nav .active .nav-link,
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    
+        color: rgb(240, 240, 240) !important;
+    
+    }
+    .navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: rgb(240, 240, 240)  !important;
+    
+    }
+        .sticky-top  .navbar-brand p,
+        .sticky-top .navbar-toggler{ 
+    
+           border-color:#207FDC ;
+        
+        }
+       
+    .sticky-top  .navbar-collapse{
+    
+        background-color: #fff !important; 
+    }
+    .sticky-top .navbar-nav .active .nav-link,
+    .sticky-top .navbar-nav .nav-item .nav-link:hover{
+    
+        color: #207FDC !important;
+    
+    }
+    .sticky-top .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: #207FDC !important;
+    
+    }
+    .slide .carousel-item .image,
+    .help-sec,
+    .testimonials-sec,
+    .contact-sec{
+
+        background-attachment: scroll !important;
+    }
+    .slide .carousel-control-next, 
+    .slide .carousel-control-prev {
+
+        top:50%;
+        margin: 0 15px;
+    }
+
+    .about-sec .image {
+    
+        height:100%;
+    
+    }
+    .about-sec .text {
+         padding:0;
+    }
+    .gallery-sec .image {
+        
+         height:100% !important;
+    }
+    .service-sec .content {
+      
+        border-bottom: 1px solid #ccc;
+        padding:0 0 15px;
+        border-right:unset !important;
+    }
+    .service-sec .col-lg-3:last-child .content{
+    
+        border-bottom:unset !important;
+        border-right:unset !important;
+
+      }
+      footer .content{
+    
+        text-align: center;
+      }
+      .about-sec .col-md-12,
+      .service-sec .col-lg-3,
+      .doctors-sec .col-lg-4,
+      .price-sec .col-lg-4,
+       footer .col-lg-4,
+       .appointment-sec .col-lg-6{
+    
+        margin-bottom: 30px;
+      }
+}   
+@media screen and (max-width:575px) and (min-width:426px){
+    .navbar-light{
+        background-color:#207FDC ;
+        }
+        .navbar-light  .navbar-brand p{ 
+        border-color:#fff ;
+    
+        }
+    
+        .navbar-light .navbar-collapse{
+    
+        background-color: #207FDC; 
+        }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      
+        display: table !important;
+    
+    }
+    
+    .navbar-light .navbar-nav .active .nav-link,
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    
+        color: rgb(240, 240, 240) !important;
+    
+    }
+    .navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: rgb(240, 240, 240)  !important;
+    
+    }
+        .sticky-top  .navbar-brand p,
+        .sticky-top .navbar-toggler{ 
+    
+           border-color:#207FDC ;
+        
+        }
+       
+    .sticky-top  .navbar-collapse{
+    
+        background-color: #fff !important; 
+    }
+    .sticky-top .navbar-nav .active .nav-link,
+    .sticky-top .navbar-nav .nav-item .nav-link:hover{
+    
+        color: #207FDC !important;
+    
+    }
+    .sticky-top .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: #207FDC !important;
+    
+    }
+    .slide .carousel-item .image,
+    .help-sec,
+    .testimonials-sec,
+    .contact-sec{
+
+        background-attachment: scroll !important;
+    }
+    .slide .carousel-item .text h2 {
+        
+        font-size: 40px;
+    }
+    .slide .carousel-control-next, 
+    .slide .carousel-control-prev {
+
+        top: 47%;
+        margin:0 15px;
+    }
+    
+    .about-sec .image {
+    
+        height:100%;
+    
+    }
+    .about-sec .text {
+         padding:0;
+    }
+    .gallery-sec .image {
+        
+         height:100% !important;
+    }
+    .service-sec .content {
+      
+        border-bottom: 1px solid #ccc;
+        padding:0 0 15px;
+        border-right:unset !important;
+    }
+    .service-sec .col-lg-3:last-child .content{
+    
+        border-bottom:unset !important;
+        border-right:unset !important;
+
+      }
+      footer .content{
+    
+        text-align: center;
+      }
+      .about-sec .col-md-12,
+      .service-sec .col-lg-3,
+      .doctors-sec .col-lg-4,
+      .price-sec .col-lg-4,
+       footer .col-lg-4,
+      .appointment-sec .col-lg-6{
+    
+        margin-bottom: 30px;
+      }
+}   
+@media screen and (max-width:768px) and (min-width:576px){
+    .navbar-light{
+        background-color:#207FDC ;
+        }
+        .navbar-light  .navbar-brand p{ 
+        border-color:#fff ;
+    
+        }
+    
+        .navbar-light .navbar-collapse{
+    
+        background-color: #207FDC; 
+        }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      
+        display: table !important;
+    
+    }
+    
+    .navbar-light .navbar-nav .active .nav-link,
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    
+        color: rgb(240, 240, 240) !important;
+    
+    }
+    .navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: rgb(240, 240, 240)  !important;
+    
+    }
+        .sticky-top  .navbar-brand p,
+        .sticky-top .navbar-toggler{ 
+    
+           border-color:#207FDC ;
+        
+        }
+       
+    .sticky-top  .navbar-collapse{
+    
+        background-color: #fff !important; 
+    }
+    .sticky-top .navbar-nav .active .nav-link,
+    .sticky-top .navbar-nav .nav-item .nav-link:hover{
+    
+        color: #207FDC !important;
+    
+    }
+   
+    .sticky-top .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: #207FDC !important;
+    
+    }
+    .slide .carousel-item .text h2 {
+        
+        font-size: 40px;
+    }
+    .slide .carousel-item .image,
+    .help-sec,
+    .testimonials-sec,
+    .contact-sec{
+
+        background-attachment: scroll !important;
+    }
+    .slide .carousel-control-next, 
+    .slide .carousel-control-prev {
+
+        top:45%;
+        margin: 0 15px;
+    }
+    
+    .about-sec .image {
+    
+        height:100%;
+    
+    }
+    .about-sec .text {
+         padding:0;
+    }
+    .gallery-sec .image {
+        
+         height:100% !important;
+    }
+    
+    .service-sec .col-lg-3:nth-child(2) .content{
+    
+        border-right:unset  !important;
+      }
+      footer .content{
+    
+        text-align: center;
+      }
+      .about-sec .col-md-12,
+      .service-sec .col-lg-3,
+      .doctors-sec .col-lg-4,
+      .price-sec .col-lg-4,
+       footer .col-lg-4,
+       .appointment-sec .col-lg-6{
+    
+        margin-bottom: 30px;
+      }
+}    
+@media screen and (max-width:991px) and (min-width:769px){
+    .navbar-light{
+        background-color:#207FDC ;
+        }
+        .navbar-light  .navbar-brand p{ 
+        border-color:#fff ;
+    
+        }
+    
+        .navbar-light .navbar-collapse{
+    
+        background-color: #207FDC; 
+        }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+      
+        display: table !important;
+    
+    }
+    
+    .navbar-light .navbar-nav .active .nav-link,
+    .navbar-light .navbar-nav .nav-item .nav-link:hover{
+    
+        color: rgb(240, 240, 240) !important;
+    
+    }
+    .navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+    
+        background-color: rgb(240, 240, 240)  !important;
+    
+    }
+        .sticky-top  .navbar-brand p,
+        .sticky-top .navbar-toggler{ 
+    
+           border-color:#207FDC ;
+        
+        }
+       
+    .sticky-top  .navbar-collapse{
+    
+        background-color: #fff !important; 
+    }
+    .sticky-top .navbar-nav .active .nav-link,
+    .sticky-top .navbar-nav .nav-item .nav-link:hover{
+    
+        color: #207FDC !important;
+    
+    }
+.navbar-light .navbar-collapse .navbar-nav .active .nav-link::after{
+
+    background-color: rgb(240, 240, 240)  !important;
+
+}
+    .sticky-top  .navbar-brand p,
+    .sticky-top .navbar-toggler{ 
+
+       border-color:#207FDC ;
+    
+    }
+   
+.sticky-top  .navbar-collapse{
+
+    background-color: #fff !important; 
+}
+.sticky-top .navbar-nav .active .nav-link,
+.sticky-top .navbar-nav .nav-item .nav-link:hover{
+
+    color: #207FDC !important;
+
+}
+.sticky-top .navbar-collapse .navbar-nav .active .nav-link::after{
+
+    background-color: #207FDC !important;
+
+}
+.slide .carousel-item .image,
+.help-sec,
+.testimonials-sec,
+.contact-sec{
+
+    background-attachment: scroll !important;
+}
+
+.about-sec .image {
+
+    height:100%;
+
+}
+.about-sec .text {
+     padding:0;
+}
+.gallery-sec .image {
+    
+     height:100% !important;
+}
+
+.service-sec .col-lg-3:nth-child(2) .content{
+    
+    border-right:unset  !important;
+  }
+  footer .content{
+
+    text-align: center;
+  }
+  .about-sec .col-md-12,
+  .service-sec .col-lg-3,
+  .doctors-sec .col-lg-4,
+  .price-sec .col-lg-4,
+   footer .col-lg-4,
+  .appointment-sec .col-lg-6{
+
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width:1024px) and (min-width:992px){
+.navbar-light .navbar-nav .nav-item .nav-link {
+    
+    margin: 0 7px;
+}
+.about-sec .image {
+
+    height: 360px;
+}
+.about-sec .text {
+
+    padding: 40px 0;
+}
+}
+@media screen and (max-width:1200px) and (min-width:1025px){
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        
+        margin: 0 7px;
+    }
+   
+    }
+
+/*--//media query--*/
